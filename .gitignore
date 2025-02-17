@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+.python-version
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+*.sqlite
+
+# IDE and editor-specific files
+.vscode/
+.idea/
+*.iml
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS and system-specific files
+.DS_Store
+Thumbs.db
+
+# Test coverage and reports
+htmlcov/
+coverage.xml
+*.cover
+.hypothesis/
+
+# Pytest cache
+.pytest_cache/
+
+# Linting reports
+.mypy_cache/
+ruff_cache/
+
+# Docker and deployment files
+docker-compose.override.yml
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Secrets and credentials (you should use environment variables instead)
+.env
+*.pem
+*.key
